@@ -1,0 +1,19 @@
+Fatu Miruna-Maria
+311CA
+
+Archiver
+
+        -In functia rotunjireMarime este rotunjita la un multiplu de 512 marimea fisierului pentru a putea fi introdus in arhiva finala.
+	-In functia create, folosindu-ne de vectorul n ,se va obtine ultimul parametru, acesta reprezentand numele fisierului care urmeaza a fi introdus in arhiva.
+        -Apoi, se creeaza un vector de siruri de caractere ce ne va ajuta la deschiderea fisierelor.
+	-Se va afla numarul de fisiere care urmeaza sa fie arhivate .
+  	-Functia arch creeaza arhiva si header-ul pentru fiecare fisier.
+	-Cu ajutorul functiei strcpy toate campurile din header vor fi inlocuite cu date corespunzatoare.
+  	-Chksum este calculat adunand toti octetii din header, octetii din chksum fiind considerati caracterul spatiu.
+	-In continuare, se va aloca memorie pentru a stoca datele din fisier. Apoi se va realiza citirea datelor si vor fi introduse in arhiva impreuna cu header-ul.
+	-In functia list, vom creea un header (listare) ajutator care ajuta la citirea fisierelor ce vor fi printate.
+	-Se parcurg header-ele fisierelor sarind peste date cu ajutorul lungimii rotunjite.
+	-Functia extract citeste headere pana cand va intalni unul cu numele fisierului cerut, iar cand acesta va fi intalnit, se va realiza extragerea lui.
+	-In functia main se vor citi comenzile si vor fi apelate functiile corespunzatoare.
+
+
